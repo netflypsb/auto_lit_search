@@ -1,0 +1,12 @@
+crewai
+streamlit
+crewai-tools
+requests
+pdfminer.six
+python-docx
+beautifulsoup4
+openai
+numpy
+pandas
+scikit-learn
+nltk
