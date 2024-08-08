@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "literature_search_project"
+version = "0.1.0"
+description = "A project to perform comprehensive literature search using CrewAI."
+authors = ["Your Name <youremail@example.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+streamlit = "^1.8.0"
+crewAI = "^0.1.0"
+python-dotenv = "^0.19.2"
+langchain = "^0.0.21"
+requests = "^2.26.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
