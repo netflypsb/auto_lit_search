@@ -1,3 +1,13 @@
 # .gitignore
-.streamlit/secrets.toml
 .env
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+.venv/
+.env
+.DS_Store
+.tox/
+poetry.lock
+
