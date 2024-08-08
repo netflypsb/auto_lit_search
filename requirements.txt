@@ -1,6 +1,6 @@
 beautifulsoup4
 crewai
-crewai-tools
+crewai[tools]
 docx2txt
 duckduckgo-search
 google-search-results
