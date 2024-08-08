@@ -1,0 +1,20 @@
+generate_keywords_task:
+  description: >
+    Use best practice guidelines to generate search keywords based on the provided research title.
+    Research Title: {research_title}
+  expected_output: >
+    A list of search keywords.
+
+perform_google_scholar_search_task:
+  description: >
+    Perform searches on Google Scholar using the generated keywords and collect relevant links.
+    Keywords: {keywords}
+  expected_output: >
+    A list of relevant literature links.
+
+compile_bibliography_task:
+  description: >
+    Compile all the relevant links found, creating a list of literature sources with titles and links.
+    Links: {links}
+  expected_output: >
+    A comprehensive list of literature sources with titles and links.
